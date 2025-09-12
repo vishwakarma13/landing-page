@@ -1,0 +1,22 @@
+.main-divs {
+    height: 500px;
+    width: auto;
+    outline: 5px solid black;
+}
+
+.ribbon-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.header-links {
+    display: flex;
+    gap: 23px;
+    
+}
+
+.one {
+    background-color: #1f2937;
+    color: white;
+}
