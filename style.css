@@ -58,3 +58,8 @@ img {
     color: #f9faf8;
     weight: 900;
 }
+
+button {
+    color: white;
+    background-color: #3882f6;
+}
