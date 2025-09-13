@@ -4,6 +4,11 @@
     outline: 5px solid black;
 }
 
+img {
+    height: 300px;
+    width: 400px;
+}
+
 .ribbon-top {
     display: flex;
     justify-content: space-between;
@@ -19,4 +24,8 @@
 .one {
     background-color: #1f2937;
     color: white;
+}
+
+.lower-section {
+    display: flex;
 }
