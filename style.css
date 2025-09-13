@@ -42,3 +42,13 @@ img {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.header-links div {
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+.header div {
+    font-size: 24px;
+    color: f9faf8;
+}
