@@ -48,7 +48,7 @@ img {
     color: #efe7eb;
 }
 
-.header div {
+.header div, .left-section p {
     font-size: 24px;
     color: f9faf8;
 }
