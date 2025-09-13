@@ -1,3 +1,6 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 .main-divs {
     height: 500px;
     width: auto;
@@ -18,14 +21,24 @@ img {
 .header-links {
     display: flex;
     gap: 23px;
-    
+    display: flex;
 }
 
 .one {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.lower-section {
+.lower-section  {
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
