@@ -8,8 +8,13 @@
 }
 
 img {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: auto;
+}
+
+.right-section {
+    width: 40%;
+    display: flex;
 }
 
 .ribbon-top {
@@ -35,12 +40,14 @@ img {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
+    justify-content: center;
 }
 
 .left-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 40%;
 }
 
 .header-links div {
