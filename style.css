@@ -4,52 +4,32 @@
 .main-divs {
     height: 500px;
     width: auto;
-    outline: 5px solid black;
-}
+    outline: 2px solid red;
 
+}
 img {
     height: 280px;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
 
 .right-section {
     width: 40%;
     display: flex;
-}
-
-.ribbon-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px;
-}
-
-.header-links {
-    display: flex;
-    gap: 23px;
-    display: flex;
+    flex-direction: column;
 }
 
 .one {
     background-color: #1f2937;
     color: white;
     display: flex;
-    flex-direction: column;
-}
-
-.lower-section  {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
     justify-content: center;
-}
-
-.left-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
+    align-items: center;
 }
 
 .header-links div {
@@ -57,7 +37,31 @@ img {
     color: #efe7eb;
 }
 
-.header div, .left-section p {
+/* .ribbon-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+} */
+/* 
+.header-links {
+    display: flex;
+    gap: 23px;
+    display: flex;
+} */
+
+
+/* .lower-section  {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+} */
+
+
+
+
+
+.left-section p {
     font-size: 24px;
     color: f9faf8;
     
