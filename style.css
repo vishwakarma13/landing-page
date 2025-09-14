@@ -1,35 +1,37 @@
-* {
+body {
     font-family: Roboto;
+    margin: 0;
 }
 .main-divs {
     height: 500px;
     width: auto;
     outline: 2px solid red;
-
 }
-img {
-    height: 280px;
-    width: auto;
-}
-
-.left-section {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-.right-section {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
 .one {
     background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+img {
+    height: 280px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.right-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.header-links {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header-links div {
@@ -37,43 +39,36 @@ img {
     color: #efe7eb;
 }
 
-/* .ribbon-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px;
-} */
-/* 
-.header-links {
-    display: flex;
-    gap: 23px;
-    display: flex;
-} */
+.header-links, .header {
+    padding-top: 3%;
+    gap: 20px;
+}
 
-
-/* .lower-section  {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    justify-content: center;
-} */
-
-
-
-
-
-.left-section p {
-    font-size: 24px;
-    color: f9faf8;
-    
+.hero-text div {
+   display: flex;
+   flex-direction: column;
 }
 
 .hero-text {
-    font-size: 48px;
-    color: #f9faf8;
-    weight: 900;
+    display: flex;
+    align-items: center;
 }
 
 button {
     color: white;
     background-color: #3882f6;
+}
+
+
+
+.five {
+    background-color: #1f2937;
+    color: white;
+}
+
+#f {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
