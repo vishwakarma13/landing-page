@@ -5,7 +5,7 @@ body {
 .main-divs {
     height: 500px;
     width: auto;
-    outline: 2px solid red;
+    outline: 1px solid red;
 }
 .one {
     background-color: #1f2937;
@@ -71,4 +71,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-blue {
+    height: 40%;
+    width: 70%;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
