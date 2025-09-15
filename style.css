@@ -13,6 +13,34 @@ body {
     justify-content: center;
     height: 500px;
 }
+
+.two {
+    height: 450px;
+}
+
+.three {
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.five {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
 img {
     height: 280px;
     width: auto;
@@ -63,22 +91,7 @@ button {
 
 
 
-.five {
-    height: 100px;
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
-.four {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
+
 
 .container-blue {
     height: 40%;
