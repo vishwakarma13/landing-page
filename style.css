@@ -82,7 +82,6 @@ img {
 .fourparts {
     height: 250px;
     width: 150px;
-    outline: 1px solid green;
     display: flex;
     flex-direction: column;
 }
@@ -90,7 +89,8 @@ img {
 .illustration {
     height: 150px;
     width: 150px;
-    outline: 3px solid blue;
+    outline: 5px solid #3882f6;
+    border-radius: 10px;
 }
 
 .fourparts p {
