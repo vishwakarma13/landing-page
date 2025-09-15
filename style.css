@@ -80,9 +80,17 @@ img {
 }
 
 .fourparts {
+    height: 250px;
+    width: 150px;
+    outline: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration {
     height: 150px;
     width: 150px;
-    outline: 3px solid green;
+    outline: 3px solid blue;
 }
 
 /* section .three styles */
