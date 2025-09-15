@@ -93,6 +93,10 @@ img {
     outline: 3px solid blue;
 }
 
+.fourparts p {
+    text-align: center;
+}
+
 /* section .three styles */
 
 .three {
