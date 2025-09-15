@@ -69,13 +69,13 @@ img {
 .upper-section {
     display: flex;
     justify-content: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .lower-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 
@@ -84,6 +84,7 @@ img {
     width: 150px;
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .illustration {
@@ -95,7 +96,16 @@ img {
 
 .fourparts p {
     text-align: center;
+    font-size: 18px;
+    color:#1f2937;
 }
+
+.randominfo {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 
 /* section .three styles */
 
@@ -116,6 +126,7 @@ img {
     text-align: end;
     font-size: 22px;
     font-weight: 700;
+    color: #1f2937;
 }
 
 .quote div {
