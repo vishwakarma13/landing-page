@@ -6,6 +6,9 @@ body {
     width: auto;
     outline: 1px solid red;
 }
+
+/*  section .one styles*/
+
 .one {
     background-color: #1f2937;
     color: white;
@@ -13,50 +16,6 @@ body {
     justify-content: center;
     height: 500px;
 }
-
-.two {
-    height: 450px;
-}
-
-.three {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.quote {
-    height: 40%;
-    width: 60%;
-}
-
-.quote p {
-    text-align: end;
-}
-
-.quote div {
-    font-size: 36px;
-    color: #1f2937;
-    font-style: italic;
-}
-
-.four {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.five {
-    height: 100px;
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
 
 img {
     height: 280px;
@@ -99,15 +58,46 @@ img {
     align-items: center;
 }
 
-button {
-    color: white;
-    background-color: #3882f6;
-    font-size: 15px;
+/*  section .two styles*/
+
+.two {
+    height: 450px;
+}
+
+.three {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efe7eb;
+}
+
+.quote {
+    height: 40%;
+    width: 60%;
+}
+
+.quote p {
+    text-align: end;
+    font-size: 22px;
     font-weight: 700;
 }
 
+.quote div {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
 
+/*  section .four styles*/
 
+.four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
 
 .container-blue {
@@ -142,3 +132,22 @@ button {
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.five {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+/* common button property to both .one & .four */
+
+button {
+    color: white;
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: 700;
+}
+
