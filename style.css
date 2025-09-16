@@ -21,6 +21,37 @@ body {
     background-color: rgba(255, 0, 0, 0.3);
 }
 
+.herologo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.leftmid {
+    margin-top: 130px;
+}
+
+.heromain {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+.leftside button {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
 .rightside {
     width: 40%;
     background-color: rgba(0, 255, 0, 0.3);
