@@ -4,7 +4,6 @@ body {
 }
 .main-divs {
     width: auto;
-    outline: 1px solid red;
 }
 
 /*  section .one styles*/
@@ -50,11 +49,32 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    border: 0;
 }
 
 .rightside {
     width: 40%;
     background-color: rgba(0, 255, 0, 0.3);
+    color: #f9faf8;
+}
+
+.rightupper {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-bottom: 130px;
+}
+
+.rightlower {
+    height: 40%;
+    outline: 2px solid yellow;
+}
+
+.rightlower img {
+    height: 100%;
+    width: 100%;
 }
 
 /*  section .two styles*/
