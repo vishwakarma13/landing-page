@@ -17,7 +17,6 @@ body {
 
 .leftside {
     width: 40%;
-    background-color: rgba(255, 0, 0, 0.3);
 }
 
 .herologo {
@@ -54,7 +53,6 @@ body {
 
 .rightside {
     width: 40%;
-    background-color: rgba(0, 255, 0, 0.3);
     color: #f9faf8;
 }
 
@@ -68,8 +66,7 @@ body {
 }
 
 .rightlower {
-    height: 40%;
-    outline: 2px solid yellow;
+    height: 45%;
 }
 
 .rightlower img {
